@@ -6,15 +6,12 @@
    padding: 0px;
    
 }
-:root{/* o ':root{}' e usado para criar variaveis para cor e fontes comko especificado abaixo.
-'--fontex:' e a variavel que vai ser usada na criação do codigo, em seguida as
-especificações da fonte que foi improtada logo acima de um site de fontes,essas
-especificações tambem são importadas como o endereço da fonte*/
+:root{
    --fonte1:'Shadows Into Light', cursive;
    --fonte2:'Great Vibes', cursive;
    --fonte3:verdana, geneva, tahoma, sans-serif;
 }
-html, body{/* configuração geral da pagina*/
+html, body{
    min-height: 100vh;
    background-color: darkgrey;
 }
@@ -23,10 +20,9 @@ header{
 }
 header > h1{
    padding-top: 50px; font-variant: small-caps;font-size: 10vw;
-   /*a 'font-size: 10vw faz com que o tamanho da fonte acompanhe o tamanho da tela,
-   10 = a porcentagem do guadro, 'vw'= viel width largura da tela. configuração alternativa. */
+   
 }
-header >p{/*var(--fonte1);' e a variavel para chamar a fonte improtada logo acima*/
+header >p{
    padding-bottom: 50px;font-family: var(--fonte1);
 }
 a{
@@ -36,22 +32,20 @@ header a:hover, footer a:hover{
 text-decoration: underline;color: yellow;
 
 }
-section{/*configuraçõa geral das seções, se aplica a todas as seções*/
+section{
    padding-top: 10vh;padding-bottom: 10vh;line-height: 2em;padding-left: 30px;font-family: var(--fonte2);
    font-size: 5vw;
 }
 
-section.normal{/*configuração local das seções, se aplica a seção especifica*/
+section.normal{
    background-color: white;color: rgb(78, 74, 74)
 }
 section.imagem{
    background-color: darkslateblue;color: aliceblue;
 }
-section.imagem> p{/*'display:inlune-block;' cria uma caixa que acompanha a largura do
-conteudo de paragrafo; o 'padding' cria uma margem no paragrafo, a margem pode ser 
-configurada para os quatro cantos indeoendente*/
+section.imagem> p{
    display: inline-block;background-color: rgba(0, 0, 0, 0.301);padding: 5px;
 }
-footer{/*configuração de roda pe*/
+footer{
    background-color: black;color: white;text-align: center;padding: 10px;
 }
