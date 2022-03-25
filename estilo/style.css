@@ -46,7 +46,14 @@ section.imagem{
    background-color: darkslateblue;color: aliceblue; box-shadow: 16px 13px 0px;background-attachment: fixed;
 }
 section.imagem> p{
-   display: inline-block;background-color: rgba(0, 0, 0, 0.301);padding: 5px;
+   display: inline-block;background-color: rgba(0, 0, 0, 0.301);padding:5px; 
+}
+
+section#img1{
+background-image: url('../pacote-d012/imagens/background001.jpg');
+}
+section#img2{
+   background-image: url('../pacote-d012/imagens/background002');
 }
 footer{
    background-color: black;color: white;text-align: center;padding: 10px;
