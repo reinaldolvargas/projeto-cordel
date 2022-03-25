@@ -51,9 +51,11 @@ section.imagem> p{
 
 section#img1{
 background-image: url('../pacote-d012/imagens/background001.jpg');
+background-position: right center;background-size: cover;
 }
 section#img2{
-   background-image: url('../pacote-d012/imagens/background002');
+   background-image: url('../pacote-d012/imagens/background002.jpg');
+   background-size: cover;
 }
 footer{
    background-color: black;color: white;text-align: center;padding: 10px;
