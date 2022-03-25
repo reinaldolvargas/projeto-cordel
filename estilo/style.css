@@ -29,19 +29,21 @@ a{
    color: white; text-decoration: none; font-weight: bolder;
 }
 header a:hover, footer a:hover{
-text-decoration: underline;
+text-decoration: underline;color: yellow;
 
 }
 section{
    padding-top: 10vh;padding-bottom: 10vh;line-height: 2em;padding-left: 30px;font-family: var(--fonte2);
    font-size: 5vw;
 }
-
+section > p{
+   padding-bottom: 2em;
+}
 section.normal{
    background-color: white;color: rgb(78, 74, 74)
 }
 section.imagem{
-   background-color: darkslateblue;color: aliceblue;
+   background-color: darkslateblue;color: aliceblue; box-shadow: 16px 13px 0px;background-attachment: fixed;
 }
 section.imagem> p{
    display: inline-block;background-color: rgba(0, 0, 0, 0.301);padding: 5px;
