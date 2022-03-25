@@ -1,6 +1,7 @@
 @charset "utf-8";
 @import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap');
+
 *{
    margin: 0px;
    padding: 0px;
@@ -9,6 +10,7 @@
    --fonte1:'Shadows Into Light', cursive;
    --fonte2:'Great Vibes', cursive;
    --fonte3:verdana, geneva, tahoma, sans-serif;
+   
 }
 html, body{
    min-height: 100vh;
